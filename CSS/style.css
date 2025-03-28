@@ -1,0 +1,476 @@
+@charset "UTF-8";
+
+@font-face{
+  font-family: legiao;
+  src: url("../fonts/legiao\ Revolution.ttf");
+}
+
+@font-face {
+  font-family: legiaomenu;
+  src: url("../fonts/legiaofont2.ttf");
+}
+@font-face {
+  font-family: legiaodrop;
+  src: url("../fonts/legiaofont3.ttf");
+}
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+
+  /* TESTA */
+
+#testa{
+  position: relative;
+  padding: 25px;
+  background-color: #BFBFBF;
+}
+
+#logotipoLeg{
+  position: absolute;
+  width: 11%;
+  background-color: #BFBFBF;
+  border:  #BFBFBF;
+}
+
+#testafundo{
+  opacity: 0.4;
+}
+#testah1{
+  position: absolute;
+  width: 100%;
+  font-size: 8vw;
+  top: 50%;
+  font-family: legiao;
+  transform: translate(0, -50%);
+}
+
+/* NAV */
+
+
+#imagem{
+    filter:invert();
+    width: 50px;
+}
+
+.navbar{
+  box-shadow: 1px 10px 30px rgba(8, 3, 3, 0.653);
+}
+
+.nav-item{
+ font-family: legiaomenu;
+ font-size: 30px;
+}
+
+.dropdown-menu{
+  font-family: legiaodrop;
+  background-color: rgba(245, 245, 245, 0.716);
+}
+
+.nav-item:hover{
+  box-shadow: 0px 0px 15px rgba(245, 245, 245, 0.981);
+  background-color: rgba(245, 245, 245, 0.475);
+  border-radius: 15px;
+}
+
+.dropdown-item:hover{
+  box-shadow: 0px 0px 15px rgba(128, 128, 128, 0.243) ;
+  background-color: rgba(128, 128, 128, 0.514);
+  border-radius: 5px;
+}
+
+/* PART INTEGRANTES */
+
+.card{
+  min-width: 199px;
+ 
+}
+
+#titulint1{
+  margin: 25px 5px 30px 5px;
+  font-family: legiaodrop;
+  font-size: 3em;
+  
+  
+}
+
+#titulint{
+  margin: 25px 5px 50px 5px;
+  font-family: legiaodrop;
+  font-size: 3em;
+  
+}
+
+/* PART DISCOGRAFIA */
+
+#discotitu{
+  text-align: center;
+  font-family: legiao;
+  font-size: 450%;
+  color: white;
+  margin-top: 30px;
+}
+
+#discografia{
+  margin-top: 50px;
+  background-color: black;
+  padding: 15px;
+  box-shadow: 0px 0px 40px rgb(8, 3, 3);
+  border-radius: 3px;
+ 
+}
+
+#leggaleria{
+  color: whitesmoke;
+  font-family: legiao;
+  font-size: 5em;
+  width: 300px;
+  -webkit-box-reflect: below 0px linear-gradient(transparent, transparent, #0004);
+
+}
+
+.galeriahome{
+  display: flex;
+  justify-content: center;
+ margin-top: 50px;
+  min-height: 350px;
+  background-color: #000;
+}
+
+.boxleg{
+  position: relative;
+  width: 160px;
+  height: 160px;
+  transform-style: preserve-3d;
+  animation: animate 20s linear infinite;
+}
+@keyframes animate {
+  0%{
+      transform: perspective(2000px) rotateY(0deg);
+  }
+  100%{
+      transform: perspective(2000px) rotateY(360deg);
+  }
+}
+
+.boxleg span{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform-origin: center;
+  transform-style: preserve-3d;
+  transform: rotateY(calc(var(--i) * 45deg )) translateZ(350px);
+  -webkit-box-reflect: below 0px linear-gradient(transparent, transparent, #0004);
+}
+
+.boxleg span img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* VIDEO CLIPS */
+ .ratio{
+  min-width: 320px;
+  margin-bottom: 100px;
+  -webkit-box-reflect: below 0px linear-gradient(transparent, transparent, #0004);
+  filter: grayscale();
+ }
+
+ .ratio:hover{
+  filter: grayscale(0);
+  transform: translateY(-8px);
+ }
+
+ .display-6{
+  color: white;
+  font-family: legiao;
+  margin-bottom: 20px;
+ }
+
+/* TELEMOVEL */
+
+.section2 {
+  max-width: 600px;
+  min-width: 390px;
+  height: 650px;
+ position: relative;
+  overflow: hidden;
+  margin-bottom: 280px;
+  -webkit-box-reflect: below 0px linear-gradient(transparent, transparent, #0004);
+  
+}
+
+.fotosec2{
+  position: absolute;
+  height: 650px;
+  
+  
+}
+
+.telainicial{
+  position: absolute;
+  top: 80px;
+  left: 80px;
+  width: 200px;
+  height: 300px;
+  z-index: 1;
+  
+}
+
+.spotifylogo{
+  width: 200px;
+  filter: grayscale(6);
+}
+
+.section2 h5{
+  color: rgba(252, 252, 252, 0.592);
+  font-family: legiaodrop;
+  font-size: 1.3em;
+  text-align: center;
+  margin-top: 60px;
+  width: 200px;
+  z-index: 1;
+}
+
+/* menu telemovel*/
+
+.acionamento{
+  position: relative;
+  
+}
+.contentor{
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 1090px;
+  background-color: transparent;
+  z-index: 1;
+  background-color: #f9f9f9;
+}
+
+.ecradiscos{
+  position: absolute;
+  top: 13px;
+  left: 60px;
+  width: 236px;
+  height: 503px;
+  padding-top: 20px;
+  border-radius: 23px;
+  background-color: #000000da;
+}
+.btndiscos{
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border-radius: 5px;
+  z-index: 4;
+  border: 1px solid rgba(0, 0, 0, 0.152);
+  overflow: hidden;
+  opacity: 0.6;
+  filter: grayscale(1);
+}
+
+.btndiscos >img{
+  width: 80px;
+  height: 80px;
+}
+
+.btn1{
+  top: 10px;
+  right: 1%;
+}
+
+.btn2{
+  top: 100px;
+  right: 1%;
+}
+
+.btn3{
+  top: 190px;
+  right: 1%;
+}
+.btn4{
+  top: 280px;
+  right: 1%;
+}
+
+.btn5{
+  top: 370px;
+  right: 1%;
+}
+
+.btn6{
+  top: 460px;
+  right: 1%;
+}
+
+.btn7{
+  top: 550px;
+  right: 1%;
+}
+
+.btn8{
+  top: 550px;
+  right: 100px;
+}
+
+.btn9{
+  top: 550px;
+  right: 190px;
+}
+
+.btndiscos:hover{
+  transform: translate(-15px , -5px);
+  box-shadow: 6px 6px 10px rgba(254, 254, 254, 0.685);
+  transition: transform 0.3s, border 0.4s;
+  z-index: 5;
+  opacity: 1;
+  filter: grayscale(0);
+}
+.acionamento:hover .contentor{
+  display: block;
+  background-color: transparent;
+}
+
+/* CONTATO */
+
+#contacto{
+  margin: 80px 0 80px 0;
+  
+}
+
+.redes-sociais{
+  display: flex;
+  justify-content: center;
+}
+
+.imgsocial{
+  width: 100px;
+  margin-top: 20px;
+  opacity: 0.4;
+}
+.imgface{
+  width: 112px;
+  opacity: 0.4;
+}
+
+.imgsocial:hover, .imgface:hover{
+  opacity: 1;
+  transform: translate(-10px, -10px);
+  
+}
+
+/* meu logo */
+
+.footerlogothi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding-right: 30px;
+  width: 100%;
+  height: 120px;
+}
+
+.textfooter{
+  color: white;
+  font-size: 0.8em;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  
+}
+
+.registro{
+  color: white;
+  font-size: 1.5em;
+  font-weight: 200;
+}
+
+#logo1{
+  filter: grayscale(1);
+}
+
+#ring {
+  width: 100px;
+  height: 100px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  position: absolute;
+}
+
+#ring:nth-child(1) {
+  border-bottom: 8px solid #BFBFBF;
+  animation: logothi1 2s linear infinite;
+}
+
+@keyframes logothi1 {
+  from {
+      transform: rotateX(50deg) rotateZ(110deg);
+  }
+
+  to {
+      transform: rotateX(50deg) rotateZ(470deg);
+  }
+}
+
+#ring:nth-child(2) {
+  border-bottom: 8px solid #8C8C8C;
+  animation: logothi2 2s linear infinite;
+}
+
+@keyframes logothi2 {
+from {
+  transform: rotateX(20deg) rotateY(50deg) rotateZ(20deg);
+}
+
+to {
+  transform: rotateX(20deg) rotateY(50deg) rotateZ(380deg);
+}
+}
+
+#ring:nth-child(3) {
+  border-bottom: 8px solid #595959;
+  animation: logothi3 2s linear infinite;
+}
+
+@keyframes logothi3 {
+  from {
+   transform: rotateX(40deg) rotateY(130deg) rotateZ(450deg);
+  }
+
+  to {
+  transform: rotateX(40deg) rotateY(130deg) rotateZ(90deg);
+  }
+}
+
+#ring:nth-child(4) {
+  border-bottom: 8px solid #404040;
+  animation: logothiago4 2s linear infinite;
+}
+
+@keyframes logothiago4 {
+  from {
+     transform: rotateX(70deg) rotateZ(270deg);
+  }
+
+  to {
+   transform: rotateX(70deg) rotateZ(630deg);
+  }
+}
+
+#footer{
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.571);
+}

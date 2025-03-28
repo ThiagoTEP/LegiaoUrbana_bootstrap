@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Thiago de Paula">
+    <meta name="description" content="Caso pratico Bootstrap com desenvolvimento site da Banda Legiao Urbana">
+    <link rel="shortcut icon" href="imagens/favicon-32x32.png" type="image/x-icon">
+    <title>LEGIAO URBANA</title>
+
+    <!-- LINK BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- FIM LINK BOOTSTRAP -->
+
+    <link rel="stylesheet" href="CSS/style.css">
+
+
+</head>
+<body>
+  
+  <div class="container-xxl">
+        <!-- TESTA SITE -->
+
+        <div id="testa" class="container-fluid">
+          <img id="logotipoLeg" src="imagens/legiao-urbana-logo.png" class="img-thumbnail float-start" alt="...">
+          <img id="testafundo" src="imagens/legiao-urbana-as-quatro-estacoes.jpg" class="img-fluid" alt="...">
+          <p id="testah1" class="h1 text-center">Legiao Urbana</p>
+         
+        </div>
+    <!-- NAVEGAÇAO -->
+        
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="imagens/legiao-urbana-logo.png" id="imagem" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 HISTORIA
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">BANDA</a></li>
+                    <li><a class="dropdown-item" href="#">RENATO RUSSO</a></li>
+                    <li><a class="dropdown-item" href="#">MARCELO BONFA</a></li>
+                    <li><a class="dropdown-item" href="#">DADO VILLA-LOBOS</a></li>
+                    <li><a class="dropdown-item" href="#">RENATO ROCHA</a></li>
+                </ul>
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#">GALERIA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONCERTOS</a>
+            </li>
+            
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>  
+    
+    <!-- CONTEUDO INTEGRANTES -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="container">
+            
+            <h1 id="titulint1" class="card-title text-center">INTEGRANTES</h1>
+
+            <div class="card mb-3 shadow-lg p-3 mb-5 bg-body rounded" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="imagens/Renato_Russo.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Renato Russo</h5>
+                    <p class="card-text">Renato se uniu a Marcelo Bonfá em 1982 e criou a Legião Urbana, chamando também os músicos Eduardo Paraná (Hoje, assinando Kadu Lambach) e Paulo 'Paulista' Guimarães.</p>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <div class="card shadow-lg p-3 mb-5 bg-body rounded mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="imagens/Marcelo-bonfa.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Marcelo Bonfa</h5>
+                    <p class="card-text">Marcelo (Augusto) Bonfá é um baterista brasileiro e fundou a Legião com Renato em 1982, após ter também participado da cena de Brasília com as bandas 'Blitz 64' e 'Dado e o Reino Animal'. Hoje segue carreira solo.</p>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <div class="card shadow-lg p-3 mb-5 bg-body rounded mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="imagens/Dadovila.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Dado Villa-Lobos</h5>
+                    <p class="card-text">Eduardo Dutra Villa-Lobos, nascido em Bruxelas, Bélgica, é sobrinho-neto do compositor Heitor Villa-Lobos. Foi o criador da banda 'Dado e o Reino Animal', e assumiu a guitarra da Legião em 1983, no lugar de Ico Ouro-Preto.</p>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <div class="card shadow-lg p-3 mb-5 bg-body rounded mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="imagens/renatorocha.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Renato Rocha</h5>
+                    <p class="card-text">Em 1983 foi integrar a Legião, que precisava de um baixista e compositor da Legião Urbana, gravando os baixos dos três primeiros discos. As clássicas “Daniel Na Cova dos Leões” e “Quase sem Querer” são parcerias suas com Russo.</p>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+           
+          
+          </div>
+        </div>
+        <div class="col">
+          <div class="container">
+
+            <h1 id="titulint" class="card-title text-center">INTEGRANTES QUE TIVERAM PASSAGEM</h1>
+
+            <div class="card shadow-lg p-3 mb-5 bg-body rounded mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="imagens/kadu_lambach.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Eduardo Paraná (Kadu Lambach)</h5>
+                    <p class="card-text">Convidado por Renato Russo para integrar a Legião Urbana, guitarrista tocava na banda Boca Seca e praticamente saiu da Legião por “tocar muito bem” para uma banda punk, segundo explicou o próprio Renato em entrevista à MTV.</p>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <div class="card shadow-lg p-3 mb-5 bg-body rounded mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="imagens/paulopaulista.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Paulo 'Paulista'</h5>
+                    <p class="card-text">Foi tecladista da primeira formação da banda, participando do histórico primeiro show, em um festival em Patos de Minas. Também tocou na banda brasiliense Finis Africae.</p>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <div class="card shadow-lg p-3 mb-5 bg-body rounded mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="imagens/ico.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Ico-Ouro Preto</h5>
+                    <p class="card-text">Guitarrista atuou na Legião Urbana por quase um ano, participando da composição da música “Ainda é cedo”, mas não gostava dos palcos e se afastou da carreira. Hoje trabalha como fotógrafo na Europa.</p>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            
+           
+          
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- DISCOGRAFIA -->
+
+    
+   
+    <div id="discografia" class="container- overflow-hidden ">
+      
+      <p id="discotitu" class="h1">DISCOGRAFIA</p>
+            
+      <div class="galeriahome">
+        <div class="boxleg">
+          <h1 id="leggaleria">LEGIAO URBANA</h1>
+         <span style="--i:1;"><img src="imagens/disco1.jpg" alt=""></span>
+         <span style="--i:2;"><img src="imagens/disco2.jpg" alt=""></span>
+         <span style="--i:3;"><img src="imagens/disco3.jpg" alt=""></span>
+         <span style="--i:4;"><img src="imagens/disco4.jpg" alt=""></span>
+         <span style="--i:5;"><img src="imagens/disco5.jpg" alt=""></span>
+         <span style="--i:6;"><img src="imagens/disco6.jpg" alt=""></span>
+         <span style="--i:7;"><img src="imagens/disco7.jpg" alt=""></span>
+         <span style="--i:8;"><img src="imagens/disco8.jpg" alt=""></span>
+         <span style="--i:9;"><img src="imagens/disco9.jpg" alt=""></span>
+        </div>
+      </div>
+      
+      <div class="row">
+
+        <div class="col">
+          <div class="container">
+
+            <h1 class="display-6 text-center">VIDEO CLIPS</h1>
+
+            <div  class="ratio ratio-16x9">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/Fq6hoS2RpOE?si=Ofd6sW6BzvUOVyae" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="ratio ratio-16x9">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/24urHU3pcWY?si=eH8ebtSHZabPhFA3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+            </div>
+            
+            
+            
+
+           
+
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="container">
+            
+            <h1 class="display-6 text-center">MUSICAS</h1>
+            <div class="section2">
+              <img class="fotosec2" src="imagens/Mao_Segurando_Celular_PNG_Transparente_Sem_Fundo_Smartphone.png" alt="foto ecra de um telemovel">
+              <div class="telainicial">
+                  <img class="spotifylogo" src="imagens/png-clipart-spotify-playlist-podcast-apps-miscellaneous-logo.png" alt="logotipo spotify que integra no ecra">
+                  <h5>Escolha a sua discografia e escute a musica!</h5>
+                  
+              </div>
+              
+              
+              <div class="acionamento">
+                  <div class="btndiscos btn1">
+                      <img src="imagens/disco1.jpg" alt="discografia 1">
+                  </div>
+                  
+                  <div class="contentor">
+                      <div class="ecradiscos">
+                      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/3wN9mC8YEdxn4VzdQINF1k?utm_source=generator&theme=0" width="230px" height="475px" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                     </div>
+                  </div>
+              </div>
+      
+              <div class="acionamento">
+                  <div class="btndiscos btn2">
+                      <img src="imagens/disco2.jpg" alt="discografia 2">
+                  </div>
+                  
+                  <div class="contentor">
+                     
+                     <div class="ecradiscos">
+                      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/4OCJTpOLqSgysGY4yBCGhn?utm_source=generator&theme=0" width="230px" height="475px" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                     </div>
+                  </div>
+              </div>
+      
+              <div class="acionamento">
+                  <div class="btndiscos btn3">
+                      <img src="imagens/disco3.jpg" alt="discografia 3">
+                  </div>
+                  
+                  <div class="contentor">
+                      
+                     <div class="ecradiscos">
+                      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/5dtcavvE7Hy2bmWb2XpiUe?utm_source=generator&theme=0" width="230px" height="475px" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                     </div>
+                  </div>
+              </div>
+      
+              <div class="acionamento">
+                  <div class="btndiscos btn4">
+                      <img src="imagens/disco4.jpg" alt=" discografia 4">
+                  </div>
+                  
+                  <div class="contentor">
+                      
+                     <div class="ecradiscos">
+                      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/7AMgXBVw9ViHswkQ71wyju?utm_source=generator&theme=0" width="230px" height="475px" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                     </div>
+                  </div>
+              </div>
+      
+              <div class="acionamento">
+                  <div class="btndiscos btn5">
+                      <img src="imagens/disco5.jpg" alt="discografia 5">
+                  </div>
+                  
+                  <div class="contentor">
+                      
+                     <div class="ecradiscos">
+                      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/1MukPW9kcaydlq29KX2OUk?utm_source=generator&theme=0" width="230px" height="475px" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                     </div>
+                  </div>
+              </div>
+      
+              <div class="acionamento">
+                  <div class="btndiscos btn6">
+                      <img src="imagens/disco6.jpg" alt=" discografia 6">
+                  </div>
+                  
+                  <div class="contentor">
+                      
+                     <div class="ecradiscos">
+                      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/6YrgsAJfmpimelyDGkaqU9?utm_source=generator&theme=0" width="230px" height="475px" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe> 
+                     </div>
+                  </div>
+              </div>
+      
+              <div class="acionamento">
+                  <div class="btndiscos btn7">
+                      <img src="imagens/disco7.jpg" alt="discografia 7">
+                  </div>
+                  
+                  <div class="contentor">
+                      
+                     <div class="ecradiscos">
+                      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/7BY13MHIlNaIwTQ126qTCn?utm_source=generator&theme=0" width="230px" height="475px" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                     </div>
+                  </div>
+              </div>
+      
+      
+              <div class="acionamento">
+                  <div class="btndiscos btn8">
+                      <img src="imagens/disco8.jpg" alt=" discografia 8">
+                  </div>
+                  
+                  <div class="contentor">
+                      
+                     <div class="ecradiscos">
+                      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/544i166jpTpgNiRg1Dz86S?utm_source=generator&theme=0" width="230px" height="475px" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                     </div>
+                  </div>
+              </div>
+      
+      
+              <div class="acionamento">
+                  <div class="btndiscos btn9">
+                      <img src="imagens/disco9.jpg" alt=" discografia 9">
+                  </div>
+                  
+                  <div class="contentor">
+                      
+                      <div class="ecradiscos">
+                          <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/5d6gRjFshFVzeNcEiX7HGX?utm_source=generator&theme=0" width="230px" height="475px" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                     </div>
+                  </div>
+              </div>
+          </div>  
+            
+          </div>
+        </div>
+
+      
+
+      </div>
+    </div>
+    
+    <!-- CONTACTOS -->
+    
+    <div id="contacto" class="row row-cols-1 row-cols-md-3 g-3 ">
+      
+        <div class="card border-light shadow-lg p-4 mb-4" style="min-width: 320px;">
+          <div class="card-body">
+            <div class="container mt-3">
+                             
+              <form action="/action_page.php" class="was-validated">
+                <div class="mb-3 mt-3">
+                  <label for="uname" class="form-label">Username:</label>
+                  <input type="text" class="form-control" id="uname" placeholder="Enter username" name="uname" required>
+                  <div class="valid-feedback">Valido.</div>
+                  <div class="invalid-feedback">Por favor, preencha este campo.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="pwd" class="form-label">Password:</label>
+                  <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
+                  <div class="valid-feedback">Valido.</div>
+                  <div class="invalid-feedback">Por favor, preencha este campo.</div>
+                </div>
+                <div class="form-check mb-3">
+                  <input class="form-check-input" type="checkbox" id="myCheck"  name="remember" required>
+                  <label class="form-check-label" for="myCheck">Eu aceito termos e condições.</label>
+                  <div class="valid-feedback">Valido</div>
+                  <div class="invalid-feedback">Selecione para continuar.</div>
+                </div>
+              <button type="submit" class="btn btn-outline-dark">Entrar</button>
+              </form>
+            </div>
+          </div>
+          <div class="card-footer">
+            <h5 class="card-title">Login</h5>
+          </div>
+        </div>
+
+        <div class="card border-light shadow-lg p-4 mb-4" style="min-width: 320px;">
+          <div class="card-body">
+            <div class="redes-sociais">
+              <a href="https://www.facebook.com/" target="_blank" alt="link para facebook legiao urbana"><img class="imgface" src="imagens/facebook_4138166.png" alt="imagem logo facebook"></a>
+          </div>
+          <div class="redes-sociais">
+              <a href="https://www.instagram.com/" target="_blank" alt="link para instragram da legiao urbana"><img class="imgsocial" src="imagens/instagram_4401407.png" alt="imagem logo instagram"></a>
+          </div>
+          <div class="redes-sociais">
+              <a href="https://twitter.com/?lang=pt_pt"
+              target="_blank" alt="link twitter da banda legiao urbana"><img class="imgsocial" src="imagens/twitter_4494465.png" alt="imagem logo twitter"></a>
+          </div>
+          </div>
+          <div class="card-footer">
+            <h5 class="card-title">Social Media</h5>
+          </div>
+        </div>
+
+        <div class="card border-light shadow-lg p-4 mb-4" style="min-width: 320px;">
+          <div class="card-body">
+            <div class="container mt-3">
+              <form action="/action_page.php">
+                <div class="mb-3 mt-3">
+              <div class="mb-3 mt-3">
+                <label for="uname" class="form-label">Nome:</label>
+                <input type="text" class="form-control" id="uname" placeholder="Nome para contato" name="uname" required>
+                <div class="valid-feedback">Valido.</div>
+                <div class="invalid-feedback">Por favor, preencha este campo.</div>
+              </div>
+              <div class="mb-3 mt-3">
+                <label for="uname" class="form-label">E-mail:</label>
+                <input type="text" class="form-control" id="uname" placeholder="exemplo@exemplo.com" name="uname" required>
+                <div class="valid-feedback">Valido.</div>
+                <div class="invalid-feedback">Por favor, preencha este campo.</div>
+              </div>
+              
+                  <label for="comment">Comments:</label>
+                  <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+                </div>
+                <button type="submit" class="btn btn-outline-dark">Enviar</button>
+              </form>
+            </div>
+          </div>
+          <div class="card-footer">
+            <h5 class="card-title">Contacto</h5>
+          </div>
+        </div>
+     
+
+    </div>
+    
+    <div id="footer" class="container-xxl bg-dark ">
+      <div class="footerlogothi">
+        <div class="textfooter" title="area de quem desenvolver site">
+            <h12>Powered by</h12>
+        </div>
+        <div id="container">
+            <div id="ring"></div>
+            <div id="ring"></div>
+            <div id="ring"></div>
+            <div id="ring"></div>
+            <div id="logo1"><a href="mailto:thiagodepaulapt@gmail.com" title="e-mail do desenvolvedor"><img src="imagens/favicon-32x32.png" alt="logotipo do desenvolverdor Thiago de Paula"></a></div>
+        </div>
+        <div class="registro">
+            <p>&reg;</p>
+        </div>
+    </div>
+      
+    </div>
+  </div>
+ 
+
+
+
+
+
+   
+
+
+    <!-- SCRIPT BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
